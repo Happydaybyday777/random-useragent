@@ -20,7 +20,7 @@ u = UserAgent()
 # generate android user-agent
 print(u.android())  # random
 print(u.android(app="app"))
-print(u.android(app="webview"))
+print(u.android(app="webview")) # 这种是常见的安卓端UA
 print(u.android(app="uc"))
 print(u.android(app="baidu"))
 print(u.android(app="qq"))
